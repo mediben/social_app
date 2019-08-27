@@ -1,4 +1,4 @@
-# Social Networking package developed for MonoSolution
+# Social Networking package
 This is a console-based social networking application (similar to Twitter) satisfying the scenarios below
 
 ### Jump-start
