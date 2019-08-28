@@ -1,5 +1,5 @@
 from cmd import Cmd
-from service import program
+from .service import program
 
 __author__ = "Mehdi Ben Taarit"
 
