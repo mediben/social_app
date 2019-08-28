@@ -24,10 +24,10 @@ def program(command):
 def add_user(inputs):
     """ Add function of new user """
     #Missing verification condition for duplicity !
+    name = inputs[0]
     if '_' in name:
         raise
     else:    
-        name = inputs[0]
         created = datetime.datetime.now()
         users_table = TinyDB('users.json')
         users_table.insert({'name': name, 'created': datetime.datetime.now().strftime('%Y%m%d %H:%M:%S')})
